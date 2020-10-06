@@ -7,18 +7,9 @@ th {
 td {
     text-align: center;
 }
-
-tr:nth-child(even) {
-    background-color: #eee;
-}
-
-th[scope="col"] {
-    background-color: #696969;
-    color: #fff;
-}
-
-th[scope="row"] {
-    background-color: #d7d9f2;
+p{
+    text-align:center;
+    font-family:sans-serif;
 }
 
 caption {
@@ -50,4 +41,51 @@ button{
     padding-right: 2em;
     background-color: #ffca4b;
     float:center;
+}
+h1{
+    text-align:right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Acheté{
+    background-color:skyblue;
+}
+.Ami{
+    background-color:#29ff57;
+}
+.Urgents{
+    background-color:#ffca4b;
+}
+.normaux{
+    background-color:pink;
+}
+header{
+    background-color:skyblue
+}
+footer{
+    background-color:#ffca4b
+}
+.header{
+    height:15em;
+    width:30em;
+
+}
+.Headder{
+    font-size:2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+    letter-spacing:2px;
+
+}
+.headdder{
+    height:15em;
+    width:30em;
+    float:center;
+
+}
+.boxshadow{
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+body{
+    text-align:center;
+    background-color:pink;
 }
